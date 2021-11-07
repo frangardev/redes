@@ -9,8 +9,7 @@ redesConteiner = document.getElementById('redes')
 
 nodes = []
 misRedes.forEach(({name, url}) => {
-    const element = `<li class="redes__li"><a href="${url}" target="_blank" class="button"><span class="icon"></span>${name}</a></li>`
-
+    const element = `<li class="redes__li"><a href="${url}" target="_blank" class="button"><span class="icon"></span>${name}</a></li>`;
     nodes.push(element)
 })
 

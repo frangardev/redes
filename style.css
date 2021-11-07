@@ -19,16 +19,14 @@
     box-sizing: border-box;
 }
 body{
-    min-height: 100vh;
-    width: 100%;
     background-image: linear-gradient(to top, #887ec8, #9883cb, #a788cf, #b58dd1, #c392d4);
-    display: grid;
-    
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 8.5em;
 }
 
 /* Header */
  .header{
-     /* background-color: violet; */
      height: auto;
  }
 .username{
@@ -45,6 +43,7 @@ body{
     border-radius: 50%;
     margin-bottom: 40px;
 }
+
 
 /* Links */
 .redes__li{
@@ -81,4 +80,36 @@ body{
 }
 .button::before{
     bottom: -2px;
+}
+
+/* footer -------------------- */
+.footer{
+    position: absolute;
+    bottom: 0; 
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	background-color: black;
+	color: var();
+}
+.footer--a{
+	text-decoration: none;
+	color: var();
+}
+.footer__container__link{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+.footer__link__li,
+.nav__ul{
+	list-style-type:none;
+}
+.footer__hecho-por{
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+}
+.footer--a:hover{
+	text-decoration:underline;
 }
