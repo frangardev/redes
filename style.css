@@ -3,7 +3,9 @@
     --button-color: #73c4eb;
     --button-color-press: ;
     --button-border: ;
-    --text-color: #1f113e;
+    --text-color: #312D47;
+    --white1: #F2F4F6;
+    --white2: #EAEAEA;
 }
 /* :root{
     --bg-color: #B767FF;
@@ -19,6 +21,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Dogica Pixel, Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #887ec8, #9883cb, #a788cf, #b58dd1, #c392d4);
     min-height: 100vh;
     position: relative;
@@ -27,6 +30,7 @@ body{
 
 /* Header */
  .header{
+     margin-top: 20px;
      height: auto;
  }
 .username{
@@ -64,6 +68,12 @@ body{
     margin: 0 auto 30px;
     box-shadow: 10px 0  var(--button-border), -10px 0 var(--button-border), 0 10px var(--button-border), 0 -10px var(--button-border);
 }
+.redes__name{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
 .button::after,
 .button::before{
     content: '';
@@ -89,12 +99,12 @@ body{
 	width: 100%;
 	height: auto;
 	padding: 10px 0;
-	background-color: black;
-	color: var();
+	background-color: var(--text-color);
+	color: var(--white2);
 }
 .footer--a{
 	text-decoration: none;
-	color: var();
+	color: var(--white1);
 }
 .footer__container__link{
 	display: flex;
