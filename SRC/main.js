@@ -14,4 +14,4 @@ misRedes.forEach(({name, url}) => {
     nodes.push(element)
 })
 
-redesConteiner.innerHTML = nodes
+redesConteiner.innerHTML = nodes.join('')
