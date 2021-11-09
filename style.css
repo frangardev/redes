@@ -1,11 +1,10 @@
 :root{
     --bg-color: #887ec8;
     --button-color: #73c4eb;
-    --button-color-press: ;
-    --button-border: ;
+    --button-color-press: #4183a1;
+    --button-border: #312D47;
     --text-color: #312D47;
-    --white1: #F2F4F6;
-    --white2: #EAEAEA;
+    --white: #F2F4F6;
 }
 /* :root{
     --bg-color: #B767FF;
@@ -92,6 +91,24 @@ body{
     bottom: -2px;
 }
 
+/* .button:hover{
+    color: var(--white);
+    box-shadow: 10px 0  var(--white), -10px 0 var(--white), 0 10px var(--white), 0 -10px var(--white);
+} */
+
+.button:active{
+    font-size: 1.9rem;
+    color: var(--text-color);
+    background-color: var(--button-color-press);
+    box-shadow: 8px 0  var(--text-color), -8px 0 var(--text-color), 0 8px var(--text-color), 0 -8px var(--text-color);
+}
+.button:active::after,
+.button:active::before{
+    left: 7px;
+    width: calc(100% - 15px);
+    background-color: var(--button-color-press);
+}
+
 /* footer -------------------- */
 .footer{
     position: absolute;
@@ -100,11 +117,11 @@ body{
 	height: auto;
 	padding: 10px 0;
 	background-color: var(--text-color);
-	color: var(--white2);
+	color: var(--white);
 }
 .footer--a{
 	text-decoration: none;
-	color: var(--white1);
+	color: var(--white);
 }
 .footer__container__link{
 	display: flex;
