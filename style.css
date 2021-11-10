@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Dogica Pixel;
+    src: url('./asets/fonts/dogicapixel.woff');
+}
+
 :root{
     --bg-color: #887ec8;
     --button-color: #73c4eb;
@@ -138,6 +143,10 @@ body{
 .footer--a:hover{
 	text-decoration:underline;
 }
+.footer__link__li{
+    margin-bottom: 10px;
+}
+
 
 @media (min-width: 500px) {
     .username{
