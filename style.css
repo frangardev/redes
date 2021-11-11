@@ -214,6 +214,8 @@ body{
     background-color: var(--button-color-press);
 }
 
+
+
 /* footer -------------------- */
 .footer{
     position: absolute;
@@ -221,6 +223,7 @@ body{
 	width: 100%;
 	height: auto;
 	padding: 10px 0;
+    font-size: .6rem;
 	background-color:var(--button-border);
 	color: var(--white);
 }
@@ -230,8 +233,9 @@ body{
 }
 .footer__container__link{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 20px auto;
+    width: 85%;
 }
 .footer__link__li,
 .nav__ul{
@@ -246,10 +250,21 @@ body{
 .footer__link__li{
     margin-bottom: 10px;
 }
-
+.footer__hecho-por{
+    display: flex;
+    justify-content: center;
+}
+.footer__img{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
 
 @media (min-width: 500px) {
     .username{
         font-size: 2.5rem;
+    }
+    .footer{
+        font-size: 1.2rem;
     }
 }
