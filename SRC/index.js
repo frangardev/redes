@@ -1,4 +1,4 @@
-misRedes = [
+const misRedes = [
     {name : 'Twitter', url: 'https://twitter.com/frangardev'},
     {name : 'Instagram', url: 'https://instagram.com/frangardev'},
     {name : 'GitHub', url: 'https://github.com/frangardev'},
@@ -6,11 +6,13 @@ misRedes = [
     {name : 'Platzi', url: 'https://platzi.com/p/frangardev/'},
 ]
 
-redesConteiner = document.getElementById('redes')
+const redesConteiner = document.getElementById('redes');
 
-nodes = []
+console.log(misRedes);
+
+const nodes = []
 misRedes.forEach(({name, url}) => {
-    const element = `<li class="redes__li"><a href="${url}" target="_blank" class="button"><span class="icon"></span><span class="redes__name">${name}</span></a></li>`;
+    const element = `<li class="redes__li"><a href="${url}" target="_blank" rel="noopener noreferrer" class="button"><span class="icon"></span><span class="redes__name">${name}</span></a></li>`;
     nodes.push(element)
 })
 
