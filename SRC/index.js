@@ -1,3 +1,4 @@
+import './styles/main.css'
 const misRedes = [
     {name : 'Twitter', url: 'https://twitter.com/frangardev'},
     {name : 'Instagram', url: 'https://instagram.com/frangardev'},
