@@ -1,6 +1,7 @@
 @font-face {
     font-family: Dogica Pixel;
-    src: url('./fonts/dogicapixel.woff');
+    src: url("../assets/fonts/dogicapixel.woff") format('woff2'),
+			 url("../assets/fonts/dogicapixel.woff") format('woff');
 }
 
 :root{
