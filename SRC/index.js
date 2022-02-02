@@ -1,9 +1,10 @@
 import './styles/main.css'
 const misRedes = [
-    {name : 'Twitter', url: 'https://twitter.com/frangardev'},
-    {name : 'Instagram', url: 'https://instagram.com/frangardev'},
-    {name : 'GitHub', url: 'https://github.com/frangardev'},
+    {name : 'Portafolio', url: 'https://frangardev.com'},
     {name : 'Linkedin', url: 'https://www.linkedin.com/in/frangardev/'},
+    {name : 'Twitter', url: 'https://twitter.com/frangardev'},
+    {name : 'GitHub', url: 'https://github.com/frangardev'},
+    {name : 'Instagram', url: 'https://instagram.com/frangardev'},
     {name : 'Platzi', url: 'https://platzi.com/p/frangardev/'},
 ]
 

@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Dogica Pixel, Arial, Helvetica, sans-serif;
+    font-family: Dogica Pixel, 'Press Start 2P', Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #887ec8, #9883cb, #a788cf, #b58dd1, #c392d4);
     min-height: 100vh;
     position: relative;
